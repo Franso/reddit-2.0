@@ -1,7 +1,7 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import Header from '../components/Header'
+import type { NextPage } from "next";
+import Head from "next/head";
+import Image from "next/image";
+import Header from "../components/Header";
 
 const Home: NextPage = () => {
   return (
@@ -10,9 +10,8 @@ const Home: NextPage = () => {
         <title>Reddit 2.0 Clone</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-        <Header/>
-       </div>
-  )
-}
+    </div>
+  );
+};
 
-export default Home
+export default Home;
